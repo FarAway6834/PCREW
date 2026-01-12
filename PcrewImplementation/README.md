@@ -61,7 +61,10 @@ compile by shell's PIPE.
 
 NOTE : `fun fact : dev on linux. not for deployment`
 
-`cat $1 | compiler excution > $2`
+`cat $before | compiler excution > $after`
+
+$before is $1
+$1 is `f"{$name}.{$ext}"`
 
 ## PepCrew
 
