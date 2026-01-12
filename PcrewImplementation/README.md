@@ -55,6 +55,14 @@ SCPS is actually pcrew compiler's pcrew source code script file
 
 and also it have some [convention for maintenance (actually not for maintenance. I like that form to programming. that's all)](./conventionOfscps)
 
+## sh that used on self-hosting compiler
+
+compile by shell's PIPE.
+
+NOTE : `fun fact : dev on linux. not for deployment`
+
+`cat $1 | compiler excution > $2`
+
 ## PepCrew
 
 | runtime lang | compiler lang | runtime by | pcre by |
