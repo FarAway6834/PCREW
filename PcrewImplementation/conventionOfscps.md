@@ -1,3 +1,3 @@
 # convention of scps
 
-warning : read it
+warning : read [it (philosophy of convention)](./PhilosophyOfConvention)
