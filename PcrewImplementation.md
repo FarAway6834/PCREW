@@ -12,14 +12,40 @@ abstract : PCREW Implementations and Language Implementation loadmap and details
 | :---: | :---: | :---: | :---: |
 | perl | perl | pcrew::runtime 'pepcrew' | perl pcre s/$v1/$v2/gm |
 
+### runtime
+
+### bootstrap start compiler env
+
+pure perl (pepcrew 0.0.1 compiler)
+
+### bootstrap compiler env
+
+#### pepcrew 0.0.1 compiler
+
+#### pepcrew compiler
+
 ## CepCrew
 
 | runtime lang | compiler lang | runtime by | pcre by |
 | :---: | :---: | :---: | :---: |
 | C | pcrew + C (bootstrap compiler started by pcrew + perl) | cepcrew.h cepcrew | PCRE2 |
 
+### runtime
+
+### bootstrap start compiler env
+
+### bootstrap compiler env
+
 ## LepCrew
 
 | runtime lang | compiler lang | runtime by | pcre by |
 | :---: | :---: | :---: | :---: |
 | LLVM clang compiled starndard C | pcrew + LLVM clang compiled starndard C (bootstrap compiler started by cepcrew + C) | lepcrew.h lepcrew | To Be Confirmed (find out the way of PCRE2 VM Bytecode 2 LLVM IR JIT : not startad yet) |
+
+
+
+### runtime
+
+### bootstrap start compiler env
+
+### bootstrap compiler env
