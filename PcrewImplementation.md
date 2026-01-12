@@ -20,6 +20,8 @@ pure perl (pepcrew 0.0.1 compiler)
 
 ### bootstrap compiler env
 
+#### 
+
 #### pepcrew 0.0.1 compiler
 
 #### pepcrew compiler
@@ -33,6 +35,8 @@ pure perl (pepcrew 0.0.1 compiler)
 ### runtime
 
 ### bootstrap start compiler env
+
+cepcrew 0.0.1a compiler (file I/O by perl)
 
 ### bootstrap compiler env
 
