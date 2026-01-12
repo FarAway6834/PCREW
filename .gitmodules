@@ -1,3 +1,6 @@
 [submodule "PepCrew"]
 	path = PepCrew
 	url = https://github.com/FarAway6834/PepCrew
+[submodule "CepCrew"]
+	path = CepCrew
+	url = https://github.com/FarAway6834/CepCrew
