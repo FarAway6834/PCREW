@@ -2,7 +2,8 @@
 
 abstract : PCREW Implementations and Language Implementation loadmap and details
 
-1. PepCrew (perl env pcrew)  # perl + sh to pepcrew + perl
+1. SCPS
+2. PepCrew (perl env pcrew)  # perl + sh to pepcrew (SCPS(selfhosting compiler pcrew script)) + perl
    * 1.1. pcrew (initial) (0.0.1a) # perl + sh
      * 1.1.1. pcrew::APP # perl
      * 1.1.2. pcrew::IO (not fIO function included) # perl
@@ -20,7 +21,7 @@ abstract : PCREW Implementations and Language Implementation loadmap and details
      * 1.3.3. pcrew::bootstrap
      * 1.3.4. pcrew::compile
      * 1.3.5. pcrew::runtime
-2. CepCrew (C env pcrew) # pepcrew + perl + C + sh to pcrew + C to cepcrew + C
+3. CepCrew (C env pcrew) # pepcrew + perl + C + sh to pcrew + C to cepcrew + C
    * 2.1. cepcrew (perl to C machanism, for make initial) (0.0.1a) # pepcrew + perl + C + sh
      * 2.1.1. APP # pepcrew (before compile)
      * 2.1.2. cepcrew::APP # perl (after compile)
@@ -41,6 +42,18 @@ abstract : PCREW Implementations and Language Implementation loadmap and details
      * 2.3.5. cepcrew/runtime.h # C
      * 2.3.6. cepcrew/IO.h # C
 3. LepCrew (LLVM env pcrew)
+
+## SCPS : selfhosting compiler pcrew script
+
+pcrew is compile language. and also it's bootstrap compiler. and actually bootstrap compiler is self-hosting compiler.
+
+so, pcrew compiler is self-hosting compiler, and as you know self-hosting compiler is writed by it self, so.
+
+pcrew compiler is writed by pcrew
+
+SCPS is actually pcrew compiler's pcrew source code script file
+
+and also it have some [convention for maintenance](./conventionOfscps)
 
 ## PepCrew
 
