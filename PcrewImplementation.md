@@ -2,8 +2,42 @@
 
 abstract : PCREW Implementations and Language Implementation loadmap and details
 
-1. PepCrew (perl env pcrew)
-2. CepCrew (C env pcrew)
+1. PepCrew (perl env pcrew)  # perl + sh to pepcrew + perl
+1. 1. pcrew (initial) (0.0.1a) # perl + sh
+1. 1. 1. pcrew::APP # perl
+1. 1. 2. pcrew::IO (not fIO function included) # perl
+1. 1. 3. pcrew::compile # perl
+1. 1. 4. pcrew::runtime # perl
+1. 1. 5. pcrewc.sh # sh
+1. 2. pcrew (non-initial) (0.0.1b ~) # perl
+1. 2. 1. pcrew::APP
+1. 2. 2. pcrew::IO (fIO function included)
+1. 2. 3. pcrew::bootstrap (add at 0.0.1c)
+1. 2. 4. pcrew::compile
+1. 2. 5. pcrew::runtime
+2. CepCrew (C env pcrew) # pepcrew + perl + C to pcrew + perl + C to pcrew + C
+2. 1. cepcrew (initial) (0.0.1a) # pepcrew + perl + C
+2. 1. 1. compiler # pepcrew (before compile)
+2. 1. 2. 
+2. 1. cepcrew (initial) (0.0.1b)  # pcrew + perl + C to pcrew + C to cepcrew + C
+2. 1. 1. compiler # pcrew (before compile)
+2. 1. 2. cepcrewc::compiler # pcrew (after compile)
+2. 1. 2. cepcrec::APP # perl
+2. 1. 3. cepcrew/runtime.h
+2. 1. 4. cepcrew/IO.h
+2. 2. cepcrew (bootstrap start 0.0.1c) # pcrew + C
+2. 2. 1. compiler # pcrew (before compile)
+2. 2. 2. cepcrewc/compiler.h # pcrew (after compile)
+2. 2. 3. cepcrewc/APP.h # C
+2. 2. 4. cepcrew/runtime.h # C
+2. 2. 5. cepcrew/IO.h # C
+2. 3. cepcrew (0.0.1d ~) # cepcrew + C
+2. 3. 1. cepcrew/compiler # cepcrew
+2. 3. 2. cepcrew/bootstrap.h # C
+2. 3. 3. cepcrew/compiler.h # C
+2. 3. 4. cepcrew/APP.h # C
+2. 3. 5. cepcrew/runtime.h # C
+2. 3. 6. cepcrew/IO.h # C
 3. LepCrew (LLVM env pcrew)
 
 ## PepCrew
