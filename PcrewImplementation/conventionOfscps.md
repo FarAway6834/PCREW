@@ -44,15 +44,25 @@ also
 ```
 allowd (`espacially`)
 
+explanation : `(` to `)` is can be coded as `{` to `}` style conventionally. and also, `|` can coded as `,` style conventionally.
+
 #### 1. function-assignment's normal functions
+
+0. subrootines splited by ` | ` *(blank ``)*
+
+code form is : `(?|[0])`
+
+also see : subrootine coded as `(?<[1]> [2])`  s.t. [1] is subrootine name, and [2] is subrootine src
 
 #### 2. function-assignment's main functions
 
-(?
+0. src *(blank ``)*
+
+code form is : `(?<main> [0])`
 
 #### 3. entrypoint-call 
 
-source that `(main)`
+source that `(?&main)`
 
 ### 3. assignment-rterm's repl
 
