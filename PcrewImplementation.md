@@ -22,4 +22,4 @@ abstract : PCREW Implementations and Language Implementation loadmap and details
 
 | runtime lang | compiler lang | runtime by | pcre by |
 | :---: | :---: | :---: | :---: |
-| LLVM clang compiled starndard C | pcrew + LLVM clang compiled starndard C | lepcrew.h lepcrew | To Be Confirmed (find out the way of PCRE2 VM Bytecode 2 LLVM IR JIT : not startad yet) |
+| LLVM clang compiled starndard C | pcrew + LLVM clang compiled starndard C (bootstrap compiler started by cepcrew + C) | lepcrew.h lepcrew | To Be Confirmed (find out the way of PCRE2 VM Bytecode 2 LLVM IR JIT : not startad yet) |
