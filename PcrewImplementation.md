@@ -20,7 +20,15 @@ pure perl (pepcrew 0.0.1 compiler)
 
 ### bootstrap compiler env
 
-#### 
+#### pepcrew::FileIO
+
+ * generate by fIO(filename, "")
+ * write by fIO(filename, value)
+ * read by fIO(filename)
+
+#### pepcrew::compiler
+
+ * compiler logic by 
 
 #### pepcrew 0.0.1 compiler
 
