@@ -22,13 +22,15 @@ pure perl (pepcrew 0.0.1 compiler)
 
 #### pepcrew::FileIO
 
+ * check by isFile(filename)
  * generate by fIO(filename, "")
  * write by fIO(filename, value)
  * read by fIO(filename)
 
 #### pepcrew::compiler
 
- * compiler logic by 
+ * compiler logic by pcrewc
+ * compiler_main : fIO read -> pcrewc -> `fIO filecheck` -> IF NOT EXIST, `fIO generate` -> fIO write
 
 #### pepcrew 0.0.1 compiler
 
