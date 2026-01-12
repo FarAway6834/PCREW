@@ -53,7 +53,7 @@ pcrew compiler is writed by pcrew
 
 SCPS is actually pcrew compiler's pcrew source code script file
 
-and also it have some [convention for maintenance](./conventionOfscps)
+and also it have some [convention for maintenance (actually not for maintenance. I like that form to programming. that's all)](./conventionOfscps)
 
 ## PepCrew
 
