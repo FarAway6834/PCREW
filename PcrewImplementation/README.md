@@ -3,7 +3,7 @@
 abstract : PCREW Implementations and Language Implementation loadmap and details
 
 1. SCPS
-2. PepCrew (perl env pcrew)  # perl + sh to pepcrew (SCPS(selfhosting compiler pcrew script)) + perl
+2. PepCrew (perl env pcrew)  # perl + sh to pepcrew (SCPS) + perl
    * 1.1. pcrew (initial) (0.0.1a) # perl + sh
      * 1.1.1. pcrew::APP # perl
      * 1.1.2. pcrew::IO (not fIO function included) # perl
