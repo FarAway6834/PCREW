@@ -29,12 +29,15 @@ pure perl (pepcrew 0.0.1 compiler)
 
 #### pepcrew::compiler
 
+ * load pepcrew::FileIO
  * compiler logic by pcrewc
- * compiler_main : fIO read -> pcrewc -> `fIO filecheck` -> IF NOT EXIST, `fIO generate` -> fIO write
+ * compiler_main(fIO, pcrewc)(filename) : fIO read -> pcrewc -> `fIO filecheck` -> IF NOT EXIST, `fIO generate` -> fIO write
 
-#### pepcrew 0.0.1 compiler
+#### pepcrew 0.0.1 compiler : pepcrew::pepcrewcInitial
+ * load pepcrew::compiler
+ * run = compiler_main(fIO, pcrewc)
 
-#### pepcrew compiler
+#### pepcrew compiler : pepcrew::APP's run
 
 ## CepCrew
 
